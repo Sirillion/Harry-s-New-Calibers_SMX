@@ -1,0 +1,18 @@
+<configs>
+
+<!--	// SMX // Parent Skill Attribute Injection -->
+
+		<insertAfter xpath="/progression/attributes/attribute[@name='attBooks']">
+			<attribute name="attHarrys" name_key="attHarrysName" desc_key="attHarrysDesc" icon="hncsmx_attribute_icon" min_level="0" max_level="0" base_skill_point_cost="0" />
+		</insertAfter>
+
+
+<!--	// SMX // Parent Skill Perk Injection -->
+
+		<set xpath="/progression/perks/perk[@name='Ammunition Smithing']/@parent">attHarrys</set>
+		<set xpath="/progression/perks/perk[@name='Ammunition Smithing']/@icon">hncsmx_attribute_icon</set>
+
+		<set xpath="/progression/perks/perk[@name='Gun Smithing']/@parent">attHarrys</set>
+		<set xpath="/progression/perks/perk[@name='Gun Smithing']/@icon">smx_ui_skills_gunslinger_icon</set>
+
+</configs>
