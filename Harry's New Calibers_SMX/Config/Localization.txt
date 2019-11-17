@@ -1,0 +1,4 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+attharrys,progression,Attribute,New,Harry's New Calibers,,,,,
+attHarrysName,progression,Attribute,New,Harry's New Calibers,,,,,
+attHarrysDesc,progression,Attribute,New,"[AF1E19]Harry's New Calibers_SMX[-]: This is a patch that adapts the Harry's New Calibers modlet to function with the new SMXui Perks & Attributes screen. In its current iteration it doesn't look pretty but that is because of limitations with the game. Hopefully this will change in the future.",,,,,
